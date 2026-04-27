@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,9 +7,9 @@
 }
 
 body {
-  font-family: Inter, sans-serif;
-  background: #0f1117;
-  color: #fff;
+  font-family: 'Inter', sans-serif;
+  background: #0a0f1e;
+  color: #f0f4ff;
 }
 
 @keyframes shimmer {
@@ -18,4 +20,32 @@ body {
   100% {
     background-position: 200% 0;
   }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease forwards;
 }

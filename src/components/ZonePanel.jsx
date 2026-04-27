@@ -31,7 +31,7 @@ export default function ZonePanel({ zone, onClose }) {
                 })
             })
             const data = await res.json()
-            setAnalysis(data.explanation || data.brief || JSON.stringify(data))
+            setAnalysis(data.summary || data.explanation || data.brief || JSON.stringify(data))
         } catch {
             setAnalysis('Failed to fetch analysis. Try again.')
         }

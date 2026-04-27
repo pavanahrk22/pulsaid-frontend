@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Whitefield",
+        "lat": 12.9698,
+        "lng": 77.7500,
+        "risk": 82,
+        "weather": 78,
+        "employment": 65,
+        "hospital": 55,
+        "sentiment": 70
+    },
+    {
+        "name": "KR Puram",
+        "lat": 13.0050,
+        "lng": 77.6950,
+        "risk": 74,
+        "weather": 60,
+        "employment": 75,
+        "hospital": 65,
+        "sentiment": 50
+    },
+    {
+        "name": "Dharavi",
+        "lat": 12.9550,
+        "lng": 77.6300,
+        "risk": 90,
+        "weather": 85,
+        "employment": 90,
+        "hospital": 75,
+        "sentiment": 40
+    },
+    {
+        "name": "Hebbal",
+        "lat": 13.0350,
+        "lng": 77.5950,
+        "risk": 55,
+        "weather": 50,
+        "employment": 55,
+        "hospital": 60,
+        "sentiment": 70
+    },
+    {
+        "name": "Yelahanka",
+        "lat": 13.1007,
+        "lng": 77.5963,
+        "risk": 45,
+        "weather": 45,
+        "employment": 50,
+        "hospital": 55,
+        "sentiment": 75
+    },
+    {
+        "name": "Jayanagar",
+        "lat": 12.9250,
+        "lng": 77.5938,
+        "risk": 38,
+        "weather": 40,
+        "employment": 45,
+        "hospital": 50,
+        "sentiment": 80
+    }
+]

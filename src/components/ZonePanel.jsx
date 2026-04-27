@@ -77,12 +77,28 @@ export default function ZonePanel({ zone, onClose }) {
                 onClick={getAnalysis}
                 disabled={loading}
                 style={{
-                    background: '#1f6feb', color: '#fff', border: 'none', borderRadius: '8px',
-                    padding: '10px', fontWeight: 600, cursor: 'pointer', fontSize: '14px'
+                    background: loading ? '#30363d' : '#1f6feb', color: '#fff', border: 'none', borderRadius: '8px',
+                    padding: '10px', fontWeight: 600, cursor: loading ? 'not-allowed' : 'pointer', fontSize: '14px',
+                    transition: 'background 0.2s'
                 }}
             >
-                {loading ? 'Analysing...' : '🤖 Get AI Analysis'}
+                {loading ? '⏳ Gemini is thinking...' : '🤖 Get AI Analysis'}
             </button>
+
+            {loading && (
+                <div style={{
+                    background: '#161b22', borderRadius: '8px', padding: '12px',
+                    display: 'flex', flexDirection: 'column', gap: '8px'
+                }}>
+                    {[100, 80, 60].map((w, i) => (
+                        <div key={i} style={{
+                            height: '12px', width: `${w}%`, borderRadius: '4px',
+                            background: 'linear-gradient(90deg, #21262d 25%, #30363d 50%, #21262d 75%)',
+                            animation: 'shimmer 1.5s infinite'
+                        }} />
+                    ))}
+                </div>
+            )}
 
             {analysis && (
                 <div style={{

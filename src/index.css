@@ -9,3 +9,13 @@ body {
   background: #0f1117;
   color: #fff;
 }
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
+}

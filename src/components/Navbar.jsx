@@ -14,6 +14,7 @@ export default function Navbar() {
             <div style={{ display: 'flex', gap: '24px' }}>
                 <Link to="/" style={{ color: '#cdd9e5', textDecoration: 'none', fontSize: '14px' }}>Risk Map</Link>
                 <Link to="/dashboard" style={{ color: '#cdd9e5', textDecoration: 'none', fontSize: '14px' }}>NGO Dashboard</Link>
+                <Link to="/history" style={{ color: '#cdd9e5', textDecoration: 'none', fontSize: '14px' }}>Historical Proof</Link>
             </div>
         </nav>
     )

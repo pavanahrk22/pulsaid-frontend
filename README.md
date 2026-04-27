@@ -106,10 +106,9 @@ uvicorn main:app --reload
 
 ## 👥 Team
 
-Built for Google Solution Challenge 2026 by [Your Team Name]
-
+Built for Google Solution Challenge 2026 by NovaLab
 ---
 
 ## 📬 Contact
 
-For queries: [your email here]
+For queries: pavanahrk22@gmail.com

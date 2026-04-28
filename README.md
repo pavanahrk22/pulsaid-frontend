@@ -4,7 +4,7 @@
 
 🌐 **Live App:** https://exquisite-starship-bf69ff.netlify.app  
 ⚙️ **Backend API:** https://pulsaid-backend-production.up.railway.app  
-📹 **Demo Video:** [Add link here]
+📹 **Demo Video:** https://drive.google.com/file/d/1FiynRn4JQypbuGlXfGd_q0WnLLpRTPff/view?usp=sharing
 
 ---
 
@@ -48,7 +48,7 @@ Frontend (React + Vite)          Backend (FastAPI)           AI + Data
 | Map | Leaflet.js + React-Leaflet |
 | Charts | Recharts |
 | Backend | FastAPI (Python 3.13) |
-| AI | Google Gemini 1.5 Flash |
+| AI | Google Gemini 2.0 Flash |
 | Database | Firebase Firestore |
 | Hosting | Netlify (frontend), Railway (backend) |
 
